@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Assg 3</title>
+
+		<style type="text/css">
+			
+			h1 {
+				color:green;
+			}
+		</style>
+</head>
+<body>
+
+
+<h1> Voeg0003's Website  </h1>
+
+ <!-- Seciton 1 for creating an account --> 
+
+	<p><strong> Create an account </strong></p>
+
+
+	<form action="/action_page.php" method="get" class="wrapper"> 
+
+	<label for="Firstname" class="label1">Firstname</label>
+	<input type="text" name="Firstname" id="Firstname" class="input1" required>
+				
+		<label for="Lastname" class="label1">Lastname</label>
+		<input type="text" name="Lastname" id="Lastname" class="input1" required>
+
+
+	
+			<br><br><label for="date" class="label1"> Date of Birth </label>	
+			<input type="date" name="date" id="date" class="input1">
+ 
+				<label for="male" class="label1"> Male </label>
+				<input type="radio" name="male" id="male" value="Male" class="input1">
+				<label for="female" class="label1"> Female</label>
+				<input type="radio" name="female" id="female" value="Female" class="input1">
+				<label for="other" class="label1" >Other gender</label>
+				<input type="radio" name="other" id="other" value="Other" class="input1">
+			
+
+ <!-- Section for address info --> 
+
+	<br><br><label for="country" class="label1">Country</label>
+	<select id="country" name="country" class="input1">
+  	<option>Canada</option>
+  	<option>USA</option>
+  	<option>Other</option> </select>
+
+  		<label for="province" class="label1">Province</label>
+		<select id="province" class="input1"> 
+		<option>AB</option>
+  		<option>BC</option>
+  		<option>MA</option>
+  		<option>NB</option>
+  		<option>NL</option>
+  		<option>NS</option>
+  		<option>NU</option>
+  		<option>NWT</option>
+  		<option>ON</option>
+  		<option>PEI</option>
+  		<option>QU</option>
+  		<option>SA</option>
+  		<option>YU</option>
+  		<option>Outside of Canada</option> </select>
+
+
+			<label for="city" class="label1">City</label>
+			<input type="text" name="city" id="city" class="input1">
+
+				<br><br><label for="address" class="label1"> Street Address</label>
+				<input type="text" name="address" id="address" class="input1">
+
+					<label for="postal" class="label1">Postal Code</label>
+					<input type="text" name="postal" id="postal" class="input1">
+
+						<br><br><label for="number" class="label1"> Mobile Number</label>
+						<input type="number" name="number" id="number" class="input1" required>
+
+						<label for="website" class="label1">Website Url</label>
+						<input type="url" name="website" id="website" class="input1">
+
+
+ <!-- Introduction Section/pass word email -->
+
+	<br><br><label for="introductory" class="label1"> Introductory Text </label>	
+	<textarea name="introductory" id="introductory" class="input1"></textarea>
+
+		<p> Select your hobbies </p>
+		<label for="gardening" class="label1"> Gardening </label>
+		<input type="checkbox" name="gardening" id="gardening" value="Gardening" class="input1">
+		<label for="sports" class="label1"> Sports </label>
+		<input type="checkbox" name="sports" id="sports" value="Sports" class="input1">
+		<label for="reading" class="label1">Reading</label>
+		<input type="checkbox" name="reading" id="reading" value="Reading" class="input1">
+
+		
+			<br><br><label for="Email" class="label1"> Email</label>
+			<input type="Email" name="Email" id="Email" class="input1" required>
+
+
+				<label for="password" class="label1">Password</label>
+				<input type="password" name="password" id="password" class="input1" required>	
+
+					<br><br><label for="submit" class="label1"></label>
+					<input type="submit" name="submit" id="submit" class="input1">
+
+					<label for="reset" class="label1"></label>
+					<input type="reset" name="reset" id="reset" class="input1">
+
+</form>
+
+</body>
+</html>
