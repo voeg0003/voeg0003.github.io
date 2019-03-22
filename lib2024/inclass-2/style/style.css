@@ -6,11 +6,23 @@ main {
 	width: 1500px; 
 }
 
-}
+
 th {
 	font-family: 'Open Sans', sans-serif;
 	float: left;
+
 }
+
+.th1 {
+	height: 406px;
+}
+
+.th2 {
+	height: 398px;
+	width: 434px;
+}
+
+
 footer { 
 	font-family: 'Roboto', sans-serif;
 	background-image: url(img/dark.jpg);
@@ -18,4 +30,6 @@ footer {
 	width: 1500px;
 	float: left;
 }
+
+
 
