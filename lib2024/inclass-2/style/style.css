@@ -1,0 +1,29 @@
+
+main {
+	font-family: 'Roboto', sans-serif;
+	background-image: url(img/dark.jpg);
+	height: 426px;
+	width: 1500px; 
+}
+
+aside {
+	font-family: 'Open Sans', sans-serif;
+	float: right;
+}
+ 
+article {
+	font-family: 'Open Sans', sans-serif;
+	float: left;
+}
+th {
+	font-family: 'Open Sans', sans-serif;
+	float: left;
+}
+footer { 
+	font-family: 'Roboto', sans-serif;
+	background-image: url(img/dark.jpg);
+	height: 130px;
+	width: 1500px;
+	float: left;
+}
+
