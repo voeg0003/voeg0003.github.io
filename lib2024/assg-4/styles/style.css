@@ -1,0 +1,54 @@
+header {
+	height: 230px;
+	width: 960px;
+	background-color: rgb(124,197,118);
+}
+
+
+main {
+	width: 630px;
+	height: 432px;
+	float: left;
+}
+
+.mainimg {
+	height: 212px;
+	width: 284px;
+
+}
+
+.sidebar {
+	width: 330px;
+	height: 432px;
+	float: right;
+	
+}
+
+
+.secondary {
+	width: 960px; 
+	height: 234px;
+	float: left;
+}
+
+.img-s {
+
+	height: 188px; 
+	width: 138px;
+}
+
+footer {
+ 	height: 112px;
+ 	width: 960px;
+	background-color: rgb(124,197,118);
+	float: left;
+}
+
+.logo-f { 
+	float: right;
+	
+}
+
+/*color for the links is 109,207,246*/ 
+
+
